@@ -1,0 +1,75 @@
+/* reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* contenitore */
+.wrapper{
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+/* intestazione header */
+header.intestazione{
+  width: 100%;
+  height: 20%;
+  background-color: yellow
+}
+
+/* corpo centrale colonne */
+main.corpo{
+  margin: 20px 0;
+  width: 100%;
+  height: 60%;
+}
+
+div.col{
+  height: 100%;
+  float: left;
+}
+
+main.corpo > div.col.a{
+  background-color: red;
+  width: 27%;
+  height: 70%;
+}
+
+main.corpo > div.col.b{
+  background-color: blue;
+  width: 40%;
+  margin: 0 3%;
+}
+
+main.corpo > div.col.c{
+  width: 27%;
+}
+
+/* sotto-sezioni colonna c */
+.c > div.sezione{
+  width: 100%;
+  height: 100%;
+}
+
+.c > .sezione.c-sopra{
+  background-color: green;
+  height: 45%;
+  margin-bottom:15px;
+}
+
+.c > .sezione.c-sotto{
+  background-color: black;
+  height: 50%;
+}
+
+/* footer fondo pagina */
+footer.fondo{
+  content: "";
+  display: table;
+  clear:both;
+  height: 15%;
+  width: 100%;
+  background-color: cyan;
+}
